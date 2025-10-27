@@ -36,3 +36,7 @@ print(np.sum(array, axis=0))  #row-wise sum
 
 print("axis = 1 is column-wise sum")
 print(np.sum(array, axis=1))  #column-wise sum
+
+#You can also use the aggregate functions dictionary to call the functions
+for func_name, func in aggregate_functions.items():
+    print(f"{func_name}: {func(array)}")
