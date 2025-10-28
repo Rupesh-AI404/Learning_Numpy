@@ -5,13 +5,13 @@ array = np.array([[1, 2, 3, 4],
                   [9, 10, 11, 12],
                   [13, 14, 15, 16]])
 
-#array[start:end:step]
+array[start:end:step]
 
-#print(array[0:4:2])
+print(array[0:4:2])
 
-# print(array[:, 1:4 ])
-#
-# print(array[:, ::2])
+print(array[:, 1:4 ])
+
+print(array[:, ::2])
 
 print(array[::2, 2])
 print(array[2:, 2:])
