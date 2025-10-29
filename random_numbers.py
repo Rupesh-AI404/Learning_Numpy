@@ -14,3 +14,4 @@ fruits = np.array(['apple', 'banana', 'cherry', 'coconut', 'date', 'elderberry',
 fruits = rng.choice(fruits, size = (2,2), replace = False)
 
 print(fruits)
+
