@@ -15,3 +15,4 @@ print(array[:, ::2])
 
 print(array[::2, 2])
 print(array[2:, 2:])
+print(array[2:, 2:3])
