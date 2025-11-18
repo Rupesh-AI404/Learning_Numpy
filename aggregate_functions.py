@@ -40,3 +40,6 @@ print(np.sum(array, axis=1))  #column-wise sum
 #You can also use the aggregate functions dictionary to call the functions
 for func_name, func in aggregate_functions.items():
     print(f"{func_name}: {func(array)}")
+
+for func_name, func in aggregate_functions.items():
+    print(f"{func_name} (axis=0): {func(array, axis=0)}")
