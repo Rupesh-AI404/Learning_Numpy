@@ -32,3 +32,5 @@ print("\n--- MANUAL SCALING ---")
 print(f"Height scaled: {height_scaled_manual}")
 print(f"Weight scaled: {weight_scaled_manual}")
 print(f"Income scaled: {income_scaled_manual}")
+
+
