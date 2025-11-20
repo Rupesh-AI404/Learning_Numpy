@@ -6,3 +6,5 @@ range_value = maximum - minimum
 print(f"Minimum: {minimum}")
 print(f"Maximum: {maximum}")
 print(f"Range: {range_value}")
+
+

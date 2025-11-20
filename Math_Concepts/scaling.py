@@ -23,6 +23,9 @@ def manual_min_max_scaling(data):
     return scaled_data
 
 
+
+
+
 # Apply manual scaling
 height_scaled_manual = manual_min_max_scaling(height_cm)
 weight_scaled_manual = manual_min_max_scaling(weight_kg)
