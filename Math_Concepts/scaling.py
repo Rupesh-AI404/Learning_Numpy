@@ -31,9 +31,14 @@ height_scaled_manual = manual_min_max_scaling(height_cm)
 weight_scaled_manual = manual_min_max_scaling(weight_kg)
 income_scaled_manual = manual_min_max_scaling(income_usd)
 
+
 print("\n--- MANUAL SCALING ---")
 print(f"Height scaled: {height_scaled_manual}")
 print(f"Weight scaled: {weight_scaled_manual}")
 print(f"Income scaled: {income_scaled_manual}")
+
+
+
+
 
 
