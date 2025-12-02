@@ -1,6 +1,6 @@
 import numpy as np
 
-rng = np.random.default_rng(seed = 1)  #seed is the random number generator
+rng = np.random.default_rng(seed = 3)  #seed is the random number generator
 
 print(rng.integers(1, 100, size = 3))  #generate 10 random integers between 1 and 100 with the size of 3
 
