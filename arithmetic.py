@@ -36,3 +36,5 @@ scores = np.array([23, 32, 54, 65, 76])
 
 scores[scores < 60] = 0
 print(scores)
+
+

@@ -15,3 +15,7 @@ fruits = rng.choice(fruits, size = (2,2), replace = False)
 
 print(fruits)
 
+players = np.array(['Alice', 'Bob', 'Charlie', 'David'])
+rng.shuffle(players)
+print(players)
+
