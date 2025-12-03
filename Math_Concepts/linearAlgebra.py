@@ -187,4 +187,4 @@ if __name__ == "__main__":
     print("\n--- SMALL NOTES ---")
     print("angle_deg returns None if one vector is zero (angle undefined).")
 
-    print("inverse raises LinAlgError if matrix is singular.")
+    print("inverse raises LinAlgError if matrix is singularr.")
