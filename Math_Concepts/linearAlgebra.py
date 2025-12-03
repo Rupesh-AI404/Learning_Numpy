@@ -60,6 +60,7 @@ def angle_deg(u, v):
     return np.degrees(np.arccos(cos_theta))
 
 
+
 # -------------------- PROJECTION --------------------
 
 def projection(u, v):
@@ -185,3 +186,5 @@ if __name__ == "__main__":
 
     print("\n--- SMALL NOTES ---")
     print("angle_deg returns None if one vector is zero (angle undefined).")
+
+    print("inverse raises LinAlgError if matrix is singular.")
