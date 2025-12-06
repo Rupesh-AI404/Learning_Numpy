@@ -83,6 +83,12 @@ print(vert_stack)
 horz_stack = np.hstack((a1, a2))
 print(horz_stack)
 
+# Create a 3-D array
+three_d_array = np.array([[[1, 2], [3, 4]],
+                          [[5, 6], [7, 8]]])
+print(three_d_array)
+
+
 
 
 
