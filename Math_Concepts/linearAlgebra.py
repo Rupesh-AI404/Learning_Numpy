@@ -2,7 +2,6 @@
 # Each small chunk shows one concept, a short plain-English comment, and a tiny example.
 
 import numpy as np
-
 # -------------------- VECTORS (small chunks) --------------------
 
 def add(u, v):
