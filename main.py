@@ -9,6 +9,6 @@ my_list = my_list * 2
 print("Original list:", my_list)
 
 array = np.array([1, 2, 3, 4])
-array = array * 2
+array = array * 5
 print(array)
 print(type(array))
