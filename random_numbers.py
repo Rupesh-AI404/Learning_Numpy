@@ -11,7 +11,7 @@ print(np.random.uniform(1.0, 5.0, size = (2, 3)))  #generate random float number
 rng = np.random.default_rng()
 
 fruits = np.array(['apple', 'banana', 'cherry', 'coconut', 'date', 'elderberry', 'fig'])
-fruits = rng.choice(fruits, size = (2,2), replace = False)
+fruits = rng.choice(fruits, size = (2,3), replace = False)
 
 print(fruits)
 
