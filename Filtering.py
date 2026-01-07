@@ -10,7 +10,7 @@ adults = ages[(ages >= 18) & (ages < 65)]
 seniors = ages[ages >= 65]
 evens = ages[ages % 2 == 0]
 odds = ages[ages % 2 != 0]
-veryYoung = ages[ages < 12]
+veryYoung = ages[ages < 10]
 
 adult = np.where(ages >= 18, ages, 0)  #if age >= 18, keep age, else set to 0
 print(adult)
