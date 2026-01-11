@@ -12,6 +12,7 @@ evens = ages[ages % 2 == 0]
 odds = ages[ages % 2 != 0]
 veryYoung = ages[ages < 10]
 canDring = ages[ages >= 18]
+canDrive = ages[ages >= 65]
 
 adult = np.where(ages >= 18, ages, 0)  #if age >= 18, keep age, else set to 0
 print(adult)
@@ -23,3 +24,4 @@ print(evens)
 print(odds)
 print(veryYoung)
 print(canDring)
+print(canDrive)
