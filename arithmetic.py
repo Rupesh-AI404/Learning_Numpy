@@ -29,6 +29,7 @@ print(array1 * array2)
 print(array1 ** array2)
 print(array1 % array2)
 print(array2 / array1)
+print(array2 // array1)
 
 
 # comparision operators
