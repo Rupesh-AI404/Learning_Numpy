@@ -1,5 +1,5 @@
 # Let's create data with different scales
-height_cm = [140, 160, 170, 180, 190, 200]  # Range: 150-190
+height_cm = [150, 160, 170, 180, 190, 200]  # Range: 150-190
 weight_kg = [45, 55, 65, 75, 85]       # Range: 45-85
 income_usd = [30000, 40000, 50000, 60000, 70000, 80000]  # Range: 30,000-70,000
 
