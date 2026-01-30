@@ -33,12 +33,15 @@ print(array2 // array1)
 print(array1 // array2)
 
 
+
 # comparision operators
 
-scores = np.array([23, 32, 54, 65, 75, 88, 99])
+scores = np.array([23, 32, 54, 65, 75, 88, 99,109])
 
 
 scores[scores < 60] = 0
+
 print(scores)
+
 
 
