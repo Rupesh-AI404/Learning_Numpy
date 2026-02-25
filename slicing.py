@@ -18,6 +18,7 @@ print(array[2:, 2:])
 print(array[2:, 2:3])
 print(array[2:, 2:4])
 print(array[2:, 2:5])
+print(array[2:, 2:6])
 
 print(array[::-1])
 
