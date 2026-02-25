@@ -42,3 +42,4 @@ print(f"Income scaled: {income_scaled_manual}")
 
 
 
+
