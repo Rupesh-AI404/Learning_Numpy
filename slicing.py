@@ -24,6 +24,7 @@ print(array[2:, 2:8])
 print(array[2:, 2:9])
 print(array[2:, 2:10])
 print(array[2:, 2:11])
+print(array[2:, 2:12])
 
 print(array[::-1])
 
