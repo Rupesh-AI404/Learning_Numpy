@@ -40,7 +40,7 @@ print(array1 / array2)
 scores = np.array([23, 32, 54, 65, 75, 88, 99,109])
 
 
-scores[scores < 60] = 0
+scores[scores < 70] = 0
 
 print(scores)
 
