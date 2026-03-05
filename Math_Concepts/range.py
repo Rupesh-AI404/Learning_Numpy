@@ -8,7 +8,7 @@ range_value = maximum - minimum
 print(f"Minimum: {minimum}")
 print(f"Maximum: {maximum}")
 print(f"Range: {range_value}")
-print(f"Mean: {(minimum + maximum) / 2}")
+print(f"Mean: {(minimum + maximum) /2}")
 print(f"Median: {data[2]}")
 print(f"Mode: {max(set(data), key=data.count)}")
 print(f"Standard Deviation: {round(np.std(data), 2)}")
