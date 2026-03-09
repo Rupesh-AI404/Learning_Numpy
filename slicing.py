@@ -30,6 +30,8 @@ print(array[2:, 2:14])
 print(array[2:, 2:15])
 print(array[2:, 2:16])
 print(array[2:, 2:17])
+print(array[2:, 2:18])
+print(array[2:, 2:19])
 
 print(array[::-1])
 
